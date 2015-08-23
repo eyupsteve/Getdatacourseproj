@@ -48,7 +48,7 @@ The datasets are then loaded into the following variables:
 Firstly the data is named using the values taken from the varlabels table. The subject id variables 
 are given the same name to allow for easy binding.
 
-The tables are then redused to only the mean and std values by use of the grep function. This function
+The tables are then reduced to only the mean and std values by use of the grep function. This function
 takes an expression and looks for matches. In this particular case searching for "mean" and "std" gives
 the variables required. 
 
