@@ -60,4 +60,5 @@ Thus the variable  "Time_Domain_Body_Accelerometer_measurement_Jerk_Magnitude-me
 that is the mean of the time domain measurements of the body component taken with the accelerometer,
 derived in time to get the jerk value. 
 
+All values are in the samee units as original data
 
