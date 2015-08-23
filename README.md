@@ -68,7 +68,7 @@ forming the top of the table, and the train data the bottom.
 
 ##Variable Naming
 
-The final step is to rename the variables to allow for easier reafing. This is done using the sub
+The final step is to rename the variables to allow for easier reading. This is done using the sub
 function. This simply takes an expression followed by what you want to replace it with, and the vector
 for it to be performed over. Here the shorter parts of the variable name are replaced by an expanded,
 easier to read name.
