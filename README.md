@@ -18,18 +18,22 @@ The datasets are then loaded into the following variables:
 This file contains the actual data for the test portion
 
 * testactivityid for the file "Y_test.txt"
+
 This file contains a single column, with a number that corresponds to an activity in the "activity_labels.txt" file, denoting the activity performed in each rows test
 
 * testsubjectid for the file "subject_test.txt"
+
 This file contains a single column showing the id of the subject who performed that rows test
 
 * xtraindata for the file "X_train.txt"
 This file contains the actual data for the train portion
 
 * trainactivityid for the file "Y_train.txt"
+
 This file contains a single column, with a number that corresponds to an activity in the "activity_labels.txt" file, denoting the activity performed in each rows test
 
 * trainsubjectid for the file "subject_train.txt"
+
 This file contains a single column showing the id of the subject who performed that rows test
 
 * actlabels for the file "activity_labels.txt"
