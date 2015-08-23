@@ -74,5 +74,5 @@ for it to be performed over. Here the shorter parts of the variable name are rep
 easier to read name.
 
 ## Writing to disk
-The very last step is to write the file to disk, here the final data is outputted
+The very last step is to write the file to disk, here the final data is written to a file named "tidydata.txt"
 
