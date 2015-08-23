@@ -1,4 +1,4 @@
-Codebook
+##Codebook
 
 The variables in the file "tidydata.txt" are taken from data from the "Human Activity Recognition
  Using Smartphones Dataset" by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
@@ -38,21 +38,23 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals
  
+##tidydata.txt 
  
 The data in "tidydata.txt" is the mean and standard deviation values extracted from the above
- dataset, with the following naming convention for the variables
+ dataset, with the following naming convention for the variables, altered from that noted in the
+ files above.
 
-Time_Domain indicates one of the time domain signal measurement.
-Freq_Domain indicates one of the measurement after a Fast Fourier Transform.
-Body indicates a body measurement.
-Gravity indicates a gravity measurement.
-Accelerometer_measurement indicates the measurement came from the accelerometer.
-Gyrometer_measurement indicates the measurement came from the gyroscope.
-Mean indicates a mean value.
-std indicates a standard deviation value.
-Jerk indicates a Jerk value.
-Magnitude indicate the value is the magnitude of the signal.
-X,Y,Z indicates the axis on which the measurement was taken.
+* Time_Domain indicates one of the time domain signal measurement.
+* Freq_Domain indicates one of the measurement after a Fast Fourier Transform.
+* Body indicates a body measurement.
+* Gravity indicates a gravity measurement.
+* Accelerometer_measurement indicates the measurement came from the accelerometer.
+* Gyrometer_measurement indicates the measurement came from the gyroscope.
+* Mean indicates a mean value.
+* std indicates a standard deviation value.
+* Jerk indicates a Jerk value.
+* Magnitude indicate the value is the magnitude of the signal.
+* X,Y,Z indicates the axis on which the measurement was taken.
 
 Thus the variable  "Time_Domain_Body_Accelerometer_measurement_Jerk_Magnitude-mean" gives a value 
 that is the mean of the time domain measurements of the body component taken with the accelerometer,
